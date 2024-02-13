@@ -1,0 +1,523 @@
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="ru" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Vehicle.tech — RnR Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Vehicle.tech","wgTitle":"Vehicle.tech","wgCurRevisionId":5202,"wgRevisionId":5202,"wgArticleId":913,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Дальнобойщики 2","Моддинг (Дальнобойщики 2)","Транспортные средства (Дальнобойщики 2)"],"wgBreakFrames":false,"wgPageContentLanguage":"ru","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","январь","февраль","март","апрель","май","июнь","июль","август","сентябрь","октябрь","ноябрь","декабрь"],"wgMonthNamesShort":["","янв","фев","мар","апр","май","июн","июл","авг","сен","окт","ноя","дек"],"wgRelevantPageName":"Vehicle.tech","wgRelevantArticleId":913,"wgRequestId":"302acce8b949a4360e42a455","wgCSPNonce":false,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@1cm6q67",function($,jQuery,require,module){/*@nomin*/mw.user.options.set({"variant":"ru"});
+});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=ru&amp;modules=ext.cite.styles%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/load.php?debug=false&amp;lang=ru&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=ru&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.32.0"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="RnR Wiki (ru)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://rnr-wiki.ru/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="RnR Wiki — Atom-лента" href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%B2%D0%B5%D0%B6%D0%B8%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/load.php?debug=false&amp;lang=ru&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Vehicle_tech rootpage-Vehicle_tech skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="ru">Vehicle.tech</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">Материал из RnR Wiki</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Перейти к навигации</a>
+				<a class="mw-jump-link" href="#p-search">Перейти к поиску</a>
+				<div id="mw-content-text" lang="ru" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p><b>vehicle.tech</b> - файл, отвечающий за различные характеристики автомобилей в <a href="/index.php?title=%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2" title="Дальнобойщики 2">Дальнобойщиках 2</a>.
+</p>
+<h2><span id="Как_и_чем_редактировать_vehicle.tech?"></span><span class="mw-headline" id=".D0.9A.D0.B0.D0.BA_.D0.B8_.D1.87.D0.B5.D0.BC_.D1.80.D0.B5.D0.B4.D0.B0.D0.BA.D1.82.D0.B8.D1.80.D0.BE.D0.B2.D0.B0.D1.82.D1.8C_vehicle.tech.3F">Как и чем редактировать vehicle.tech?</span></h2>
+<p>Существует несколько вариантов редактирования данного файла:<br />
+</p>
+<ol><li>С помощью утилиты <b>D2 Tech Editor</b>. Автор программы -  Алексей Воронов (<a href="/index.php?title=%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:BoPoH&amp;action=edit&amp;redlink=1" class="new" title="Участник:BoPoH (страница не существует)">BoPoH</a>). Скачать можно <a href="/index.php?title=%D0%A3%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B_(%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2)" title="Утилиты (Дальнобойщики 2)">со страницы с утилитами</a>.<br /></li>
+<li>Через HEX-редактор. Скачать hsl-структуры для версий 6.6 и 7.2 можно <a rel="nofollow" class="external text" href="https://vk.com/wall-11599748_44108?reply=47612">здесь</a>, для версии 8.0 - <a rel="nofollow" class="external text" href="https://vk.com/topic-157113673_39349010?post=128">тут</a>.</li>
+<li>Наконец, <b>наиболее правильный способ</b> - собрать файл из исходных текстовых файлов. Инструкция и ссылка на загрузку доступны <a rel="nofollow" class="external text" href="https://vk.com/page-157113673_53558294">здесь</a>.</li></ol>
+<h2><span id="Переменные_и_их_значения"></span><span class="mw-headline" id=".D0.9F.D0.B5.D1.80.D0.B5.D0.BC.D0.B5.D0.BD.D0.BD.D1.8B.D0.B5_.D0.B8_.D0.B8.D1.85_.D0.B7.D0.BD.D0.B0.D1.87.D0.B5.D0.BD.D0.B8.D1.8F">Переменные и их значения</span></h2>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Название переменной</th>
+<th>Значение
+</th></tr>
+<tr>
+<td>CenterMassInB3D</td>
+<td>Центр масс.
+</td></tr>
+<tr>
+<td>mass</td>
+<td>Масса автомобиля. <sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup>
+</td></tr>
+<tr>
+<td>rwheel</td>
+<td>Расстояние между дорогой и нижним концом пружины.
+</td></tr>
+<tr>
+<td>rwheel1</td>
+<td>Толщина колеса.
+</td></tr>
+<tr>
+<td>tank</td>
+<td>Объём топливного бака. <sup id="cite_ref-2" class="reference"><a href="#cite_note-2">&#91;2&#93;</a></sup>
+</td></tr>
+<tr>
+<td>fuelTimeEndurance</td>
+<td>Относительная топливная эффективность. <sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>
+</td></tr>
+<tr>
+<td>fuelConsumption</td>
+<td>Расход топлива (количество литров на 10 км).
+</td></tr>
+<tr>
+<td>kilometrage</td>
+<td>неизвестно
+</td></tr>
+<tr>
+<td>air_press_coeff</td>
+<td>Давление воздуха.
+</td></tr>
+<tr>
+<td>air_resist_coeff</td>
+<td>Сопротивление воздуха.
+</td></tr>
+<tr>
+<td>air_side_resist_coeff</td>
+<td>Боковое сопротивление воздуха. <sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup>
+</td></tr>
+<tr>
+<td>front_wheel_thickness</td>
+<td>Ширина передних колёс.
+</td></tr>
+<tr>
+<td>rear_wheel_thickness</td>
+<td>Ширина задних колёс.
+</td></tr>
+<tr>
+<td>maxrotmomentum</td>
+<td>Максимальный крутящий момент.
+</td></tr>
+<tr>
+<td>breakpower</td>
+<td>Сила торможения.
+</td></tr>
+<tr>
+<td>rear_axle_coeff</td>
+<td>Передаточное число редуктора.
+</td></tr>
+<tr>
+<td>reverse_trans_coeff0</td>
+<td>Передаточное число передачи заднего хода.
+</td></tr>
+<tr>
+<td>gear_trans_coeff1..13</td>
+<td>Передаточные числа передач с первой по тринадцатую.
+</td></tr>
+<tr>
+<td>tach_with_max_power</td>
+<td>неизвестно
+</td></tr>
+<tr>
+<td>cargo_and_body_pick_load</td>
+<td>Грузоподъёмность.
+</td></tr>
+<tr>
+<td>body_mass</td>
+<td>Масса фургона.
+</td></tr>
+<tr>
+<td>body_height</td>
+<td>Высота фургона.
+</td></tr>
+<tr>
+<td>body_square</td>
+<td>Объём фургона.
+</td></tr>
+<tr>
+<td>center_of_cargo_bottom</td>
+<td>Позиция груза в кузове автомобиля.
+</td></tr>
+<tr>
+<td>driving_wheels</td>
+<td>Колёсная формула.
+</td></tr>
+<tr>
+<td>sterring_wheels</td>
+<td>Поворотные колёса.
+</td></tr>
+<tr>
+<td>touching_road_wheels</td>
+<td>Показывает, какие колёса соприкасаются с поверхностью.
+</td></tr>
+<tr>
+<td>OV</td>
+<td>Координаты салона.
+</td></tr>
+<tr>
+<td>tangViewer</td>
+<td>Наклон камеры из салона.
+</td></tr>
+<tr>
+<td>I</td>
+<td>Момент инерции.
+</td></tr>
+<tr>
+<td>suspension</td>
+<td>Подвеска автомобиля. <sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup>
+</td></tr>
+<tr>
+<td>Ks</td>
+<td>Коэффициент жесткости пружин.
+</td></tr>
+<tr>
+<td>Cs</td>
+<td>Коэффициент амортизаторов.
+</td></tr>
+<tr>
+<td>CollisionRadius</td>
+<td>неизвестно
+</td></tr>
+<tr>
+<td>CollisionCenter</td>
+<td>неизвестно
+</td></tr>
+<tr>
+<td>rubber_collision_coeff</td>
+<td>Коэффициент коллизии колёс.
+</td></tr>
+<tr>
+<td>slide_collision_coeff</td>
+<td>Коэффициент бокового трения.
+</td></tr>
+<tr>
+<td>Corner_Mark_1..11</td>
+<td>Точки коллизии для расчёта столкновений со статичными объектами (игровым миром).
+</td></tr>
+<tr>
+<td>AddColPnts0...3</td>
+<td>Нижние точки крайних передних и крайних задних колёс, автоматические определяемые игрой при сборке tech-файла.
+</td></tr>
+<tr>
+<td>Corner_Mark_W1...4</td>
+<td>Нижние габаритные точки коллизии автомобиля.
+</td></tr>
+<tr>
+<td>CollisionPlane0...16</td>
+<td>Плоскости коллизии для расчёта столкновений с динамическими объектами (другой транспорт, бочки). Первые три числа задают позицию, последнее - удаление плоскости от начала координат (0, 0, 0). Каждая плоскость перпендикулярна точке (0, 0, 0). Границы пересечений данных плоскостей образуют коллизию автомобиля.
+</td></tr>
+<tr>
+<td>tvCameraPosition1</td>
+<td>Позиция левого зеркала.
+</td></tr>
+<tr>
+<td>tvCameraPosition2</td>
+<td>Позиция центрального зеркала.
+</td></tr>
+<tr>
+<td>tvCameraPosition3</td>
+<td>Позиция правого зеркала.
+</td></tr>
+<tr>
+<td>tvCameraPosition4</td>
+<td>неизвестно
+</td></tr>
+<tr>
+<td>tvCameraRightConer</td>
+<td>неизвестно
+</td></tr>
+<tr>
+<td>SmokePosition</td>
+<td>Позиция выхлопа.
+</td></tr>
+<tr>
+<td>SmokeDirection</td>
+<td>Направление выхлопа.
+</td></tr>
+<tr>
+<td>SmokePosition2</td>
+<td>Позиция второго выхлопа.
+</td></tr>
+<tr>
+<td>SmokeDirection2</td>
+<td>Направление второго выхлопа.
+</td></tr>
+<tr>
+<td>flame_place</td>
+<td>Позиция огня горящего двигателя.
+</td></tr>
+<tr>
+<td>Fara_FL</td>
+<td>Координаты свечения левой фары.
+</td></tr>
+<tr>
+<td>Fara_FR</td>
+<td>Координаты свечения правой фары.
+</td></tr>
+<tr>
+<td>Fara_BLs</td>
+<td>Координаты свечения заднего левого фонаря.
+</td></tr>
+<tr>
+<td>Fara_BRs</td>
+<td>Координаты свечения заднего правого фонаря.
+</td></tr>
+<tr>
+<td>Fara_BL</td>
+<td>Координаты свечения левого огня заднего хода.
+</td></tr>
+<tr>
+<td>Fara_BR</td>
+<td>Координаты свечения правого огня заднего хода.
+</td></tr>
+<tr>
+<td>horse_power</td>
+<td>Мощность двигателя.
+</td></tr>
+<tr>
+<td>price</td>
+<td>Цена автомобиля (указанная здесь не используется, задаётся в <a href="/index.php?title=Sch-%D1%84%D0%B0%D0%B9%D0%BB%D1%8B#evehicles.sch" title="Sch-файлы">evehicles.sch</a>).
+</td></tr>
+<tr>
+<td>glowwing</td>
+<td>неизвестно
+</td></tr>
+<tr>
+<td>lowSaddle</td>
+<td>Координаты сцепки на тягаче для соединения с полуприцепом.
+</td></tr>
+<tr>
+<td>topSaddle</td>
+<td>Координаты сцепки на полуприцепе для соединения с тягачом.
+</td></tr>
+<tr>
+<td>Towhook</td>
+<td>Координаты сцепки на грузовике для соединения с прицепом (в игре не используется).
+</td></tr>
+<tr>
+<td>Coupler</td>
+<td>Координаты сцепки на прицепе для соединения с грузовиком.
+</td></tr>
+<tr>
+<td>shiftSaddle</td>
+<td>Смещение точки сцепки по оси Y относительно параметра lowSaddle.
+</td></tr>
+<tr>
+<td>CouplerLength</td>
+<td>Вероятно, аналогично предыдущему, но относительно параметра Towhook.
+</td></tr>
+<tr>
+<td>SpeedScale</td>
+<td>Первое число - максимальное значение скорости на шкале спидометра, второе - максимальный угол поворота стрелки спидометра.
+</td></tr>
+<tr>
+<td>TachScale</td>
+<td>Аналогично SpeedScale.
+</td></tr>
+<tr>
+<td>FuelScale</td>
+<td>Аналогично TachScale.
+</td></tr>
+<tr>
+<td>CabRWindow</td>
+<td>неизвестно
+</td></tr>
+<tr>
+<td>CabLWindow</td>
+<td>неизвестно
+</td></tr>
+<tr>
+<td>CabFrontWindow</td>
+<td>неизвестно
+</td></tr>
+<tr>
+<td>Drivers_neck_Angles</td>
+<td>Ограничения поворота камеры в салоне по осям (мин. Z, мин. Y, мин. X, 0, макс. X, макс. Y, макс. Z).
+</td></tr>
+<tr>
+<td>cockpit_space</td>
+<td>Имя локатора геометрии кабины в trucks.b3d (&lt;автомобиль&gt;BoothSpace). Данный локатор используется для имитации качения кабины.
+</td></tr>
+<tr>
+<td>prefix</td>
+<td>Префикс объектов автомобиля в trucks.b3d (локаторы и фары).
+</td></tr>
+<tr>
+<td>prefixCab</td>
+<td>Префикс используемой кабины из cabines.b3d.
+</td></tr>
+<tr>
+<td>car_node</td>
+<td>Имя блока автомобиля в trucks.b3d.
+</td></tr>
+<tr>
+<td>trailer_type</td>
+<td>Тип полуприцепа: 1 - стандартный, 2 - платформа, 3 - цистерна.
+</td></tr>
+<tr>
+<td>Fara_Dir</td>
+<td>неизвестно
+</td></tr>
+<tr>
+<td>Fara_Width</td>
+<td>неизвестно
+</td></tr></tbody></table>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th colspan="3" style="background-color:#D1CCA7"><a href="/index.php?title=%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2" title="Дальнобойщики 2">Дальнобойщики 2</a>
+</th></tr>
+<tr>
+<td style="background-color:#D1CCA7; text-align:right; width: 15%"><i><b>Игровое наполнение</b></i>
+</td>
+<td><a href="/index.php?title=%D0%98%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%B9_%D1%80%D0%B5%D0%B3%D0%B8%D0%BE%D0%BD_(%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2)" title="Игровой регион (Дальнобойщики 2)">Игровой регион</a> • <a href="/index.php?title=%D0%90%D0%B2%D1%82%D0%BE%D0%BF%D0%B0%D1%80%D0%BA_(%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2)" title="Автопарк (Дальнобойщики 2)">Автопарк</a> • <a href="/index.php?title=%D0%A1%D0%B0%D1%83%D0%BD%D0%B4%D1%82%D1%80%D0%B5%D0%BA_(%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2)" title="Саундтрек (Дальнобойщики 2)">Саундтрек</a> • <a href="/index.php?title=%D0%92%D1%81%D1%82%D1%83%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%80%D0%BE%D0%BB%D0%B8%D0%BA_(%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2)" title="Вступительный ролик (Дальнобойщики 2)">Вступительный ролик</a> • <a href="/index.php?title=%D0%A0%D0%B0%D1%86%D0%B8%D1%8F" title="Рация">Рация</a> • <a href="/index.php?title=%D0%9C%D0%B8%D0%BB%D0%B8%D1%86%D0%B8%D1%8F" title="Милиция">Милиция</a> • <a href="/index.php?title=%D0%9A%D0%90-50" title="КА-50">Вертолёт</a>
+</td>
+<td rowspan="3" style="width: 10%">
+<div class="center"><div class="floatnone"><a href="/index.php?title=%D0%A4%D0%B0%D0%B9%D0%BB:%D0%94%D0%B12t.jpg" class="image"><img alt="Дб2t.jpg" src="/images/thumb/0/0c/%D0%94%D0%B12t.jpg/160px-%D0%94%D0%B12t.jpg" width="160" height="160" srcset="/images/thumb/0/0c/%D0%94%D0%B12t.jpg/240px-%D0%94%D0%B12t.jpg 1.5x, /images/thumb/0/0c/%D0%94%D0%B12t.jpg/320px-%D0%94%D0%B12t.jpg 2x" /></a></div></div>
+</td></tr>
+<tr>
+<td style="background-color:#D1CCA7; text-align:right"><i><b>Моддинг</b></i>
+</td>
+<td><a href="/index.php?title=%D0%9C%D0%BE%D0%B4%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8_(%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2)" title="Модификации (Дальнобойщики 2)">Модификации</a> • <a href="/index.php?title=%D0%A3%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B_(%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2)" title="Утилиты (Дальнобойщики 2)">Утилиты</a> • <a href="/index.php?title=Game.cnf" title="Game.cnf">game.cnf</a> • <a href="/index.php?title=Sch-%D1%84%D0%B0%D0%B9%D0%BB%D1%8B" title="Sch-файлы">sch-файлы</a> • <a class="mw-selflink selflink">vehicle.tech</a> • <a href="/index.php?title=Truck.ini_(%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2)" title="Truck.ini (Дальнобойщики 2)">truck.ini</a>
+</td></tr>
+<tr>
+<td style="background-color:#D1CCA7; text-align:right"><i><b>Разное</b></i>
+</td>
+<td><a href="/index.php?title=%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9_(%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2)" title="История версий (Дальнобойщики 2)">История версий</a> •  <a href="/index.php?title=%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%8B_%D0%B8_%D1%81%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B_(%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2)" title="Советы и секреты (Дальнобойщики 2)">Советы и секреты</a> • <a href="/index.php?title=%D0%91%D0%BE%D0%BD%D1%83%D1%81%D0%BD%D1%8B%D0%B9_%D0%B4%D0%B8%D1%81%D0%BA" title="Бонусный диск">Бонусный диск</a> • <a href="/index.php?title=%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_(%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2)" title="Управление (Дальнобойщики 2)">Управление</a>  • <a href="/index.php?title=%D0%90%D0%B2%D1%82%D0%BE%D1%80%D1%8B_(%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2)" title="Авторы (Дальнобойщики 2)">Авторы</a>
+</td></tr></tbody></table>
+<p><br />
+</p>
+<h2><span id="Примечания"></span><span class="mw-headline" id=".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D0.BD.D0.B8.D1.8F">Примечания</span></h2><div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">^</a></span> <span class="reference-text"> Также отвечает за звук двигателя. Бензиновый двигатель = 0-3000, дизель = 3000 и выше. </span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">^</a></span> <span class="reference-text"> Если изменить только значение объёма бака, то на дальность хода грузовика это никак не повлияет. Дело в том, что мгновенный расход топлива вычисляется в относительных единицах, а не в литрах. Т. е. используется отношение долей (процентов или промилле) от полного объёма бака к количеству совершённых оборотов коленвала.
+
+Чтобы в этом убедиться, достаточно установить крошечный объём бака (н-р, всего 1 л) и замерить дальность хода. Она окажется такой же, как и при 100 л, и при 1000 л.
+
+Чтобы дальность хода увеличивалась пропорционально увеличению объёма бака, необходимо увеличивать и значение переменной "fuelTimeEndurance". <a rel="nofollow" class="external text" href="https://vk.com/wall-11599748_51210?reply=51217">Источник</a> </span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">^</a></span> <span class="reference-text"> Данная переменная отражает относительную топливную эффективность, т. е. это некий коэффициент, указывающий насколько медленнее будет расходоваться единичный объём топлива (соответствующий объёму бака) по сравнению с некоторым эталонным двигателем, для которого значение данной переменной равно 1. <a rel="nofollow" class="external text" href="https://vk.com/wall-11599748_51210?reply=51241">Источник</a></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4">^</a></span> <span class="reference-text">Также влияет на блокировку вращения прицепа относительно тягача. </span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">^</a></span> <span class="reference-text">Первые 4 параметра - минимальная высота, остальные 4 - максимальная. Вообще, подвеска в tech-файле представлена в виде восьми параметров: hmin0, hmin1, hmin2, hmin3 и hmax0, hmax1, hmax2, hmax3 (см. файл carv.ini из <a href="/index.php?title=%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%B3%D0%BE%D0%BD%D0%BA%D0%B8" title="Автомобильные гонки">Car Races Demo</a>). </span>
+</li>
+</ol></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20240213080916
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.064 seconds
+Real time usage: 0.071 seconds
+Preprocessor visited node count: 88/1000000
+Preprocessor generated node count: 196/1000000
+Post?expand include size: 1556/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post?expand size: 415/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    2.109      1 Шаблон:Дб2
+100.00%    2.109      1 -total
+-->
+
+<!-- Saved in parser cache with key d2_wiki:pcache:idhash:913-0!canonical and timestamp 20240213080916 and revision id 5202
+ -->
+</div></div>					<div class="printfooter">
+						Источник — <a dir="ltr" href="https://rnr-wiki.ru/index.php?title=Vehicle.tech&amp;oldid=5202">https://rnr-wiki.ru/index.php?title=Vehicle.tech&amp;oldid=5202</a>					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8" title="Служебная:Категории">Категории</a>: <ul><li><a href="/index.php?title=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2" title="Категория:Дальнобойщики 2">Дальнобойщики 2</a></li><li><a href="/index.php?title=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9C%D0%BE%D0%B4%D0%B4%D0%B8%D0%BD%D0%B3_(%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2)" title="Категория:Моддинг (Дальнобойщики 2)">Моддинг (Дальнобойщики 2)</a></li><li><a href="/index.php?title=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%BD%D1%8B%D0%B5_%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0_(%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B1%D0%BE%D0%B9%D1%89%D0%B8%D0%BA%D0%B8_2)" title="Категория:Транспортные средства (Дальнобойщики 2)">Транспортные средства (Дальнобойщики 2)</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Навигация</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Персональные инструменты</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%92%D1%85%D0%BE%D0%B4&amp;returnto=Vehicle.tech" title="Здесь можно зарегистрироваться в системе, но это необязательно. [o]" accesskey="o">Войти</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Пространства имён</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/index.php?title=Vehicle.tech" title="Просмотр основной страницы [c]" accesskey="c">Статья</a></span></li><li id="ca-talk"><span><a href="/index.php?title=%D0%9E%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5:Vehicle.tech" rel="discussion" title="Обсуждение основной страницы [t]" accesskey="t">Обсуждение</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Варианты</span>
+						</h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Просмотры</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/index.php?title=Vehicle.tech">Читать</a></span></li><li id="ca-viewsource" class="collapsible"><span><a href="/index.php?title=Vehicle.tech&amp;action=edit" title="Эта страница защищена от изменений. Вы можете посмотреть  её исходный текст. [e]" accesskey="e">Просмотр кода</a></span></li><li id="ca-history" class="collapsible"><span><a href="/index.php?title=Vehicle.tech&amp;action=history" title="Журнал изменений страницы [h]" accesskey="h">История</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>Ещё</span></h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Поиск</label>
+						</h3>
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Искать в RnR Wiki" title="Искать в RnR Wiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Служебная:Поиск" name="title"/><input type="submit" name="fulltext" value="Найти" title="Найти страницы, содержащие указанный текст" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Перейти" title="Перейти к странице, имеющей в точности такое название" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/index.php?title=%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"  title="Перейти на заглавную страницу"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Навигация</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/index.php?title=%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" title="Перейти на заглавную страницу [z]" accesskey="z">Заглавная страница</a></li><li id="n-recentchanges"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%B2%D0%B5%D0%B6%D0%B8%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8" title="Список последних изменений [r]" accesskey="r">Свежие правки</a></li><li id="n-randompage"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" title="Посмотреть случайно выбранную страницу [x]" accesskey="x">Случайная статья</a></li><li id="n-.D0.92.D1.81.D0.B5-.D1.81.D1.82.D1.80.D0.B0.D0.BD.D0.B8.D1.86.D1.8B"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%92%D1%81%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B">Все страницы</a></li><li id="n-.D0.A3.D1.87.D0.B0.D1.81.D1.82.D0.BD.D0.B8.D0.BA.D0.B8-.D0.92.D0.B8.D0.BA.D0.B8"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2">Участники Вики</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Инструменты</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8_%D1%81%D1%8E%D0%B4%D0%B0/Vehicle.tech" title="Список всех страниц, ссылающихся на данную [j]" accesskey="j">Ссылки сюда</a></li><li id="t-recentchangeslinked"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8/Vehicle.tech" rel="nofollow" title="Последние изменения в страницах, на которые ссылается эта страница [k]" accesskey="k">Связанные правки</a></li><li id="t-specialpages"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%BF%D0%B5%D1%86%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B" title="Список служебных страниц [q]" accesskey="q">Спецстраницы</a></li><li id="t-print"><a href="/index.php?title=Vehicle.tech&amp;printable=yes" rel="alternate" title="Версия этой страницы для печати [p]" accesskey="p">Версия для печати</a></li><li id="t-permalink"><a href="/index.php?title=Vehicle.tech&amp;oldid=5202" title="Постоянная ссылка на эту версию страницы">Постоянная ссылка</a></li><li id="t-info"><a href="/index.php?title=Vehicle.tech&amp;action=info" title="Подробнее об этой странице">Сведения о странице</a></li><li id="t-cite"><a href="/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A6%D0%B8%D1%82%D0%B0%D1%82%D0%B0&amp;page=Vehicle.tech&amp;id=5202" title="Информация о том, как цитировать эту страницу">Цитировать страницу</a></li>				</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> Эта страница в последний раз была отредактирована 23 января 2024 в 18:13.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="/index.php?title=RnR_Wiki:%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0_%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8" title="RnR Wiki:Политика конфиденциальности">Политика конфиденциальности</a></li>
+								<li id="footer-places-about"><a href="/index.php?title=RnR_Wiki:%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" title="RnR Wiki:Описание">О RnR Wiki</a></li>
+								<li id="footer-places-disclaimer"><a href="/index.php?title=RnR_Wiki:%D0%9E%D1%82%D0%BA%D0%B0%D0%B7_%D0%BE%D1%82_%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8" title="RnR Wiki:Отказ от ответственности">Отказ от ответственности</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.064","walltime":"0.071","ppvisitednodes":{"value":88,"limit":1000000},"ppgeneratednodes":{"value":196,"limit":1000000},"postexpandincludesize":{"value":1556,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":415,"limit":5000000},"timingprofile":["100.00%    2.109      1 Шаблон:Дб2","100.00%    2.109      1 -total"]},"cachereport":{"timestamp":"20240213080916","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":185});});</script>
+	</body>
+</html>
